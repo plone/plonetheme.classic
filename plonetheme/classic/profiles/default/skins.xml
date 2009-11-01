@@ -16,15 +16,15 @@
       of your product (on the filesystem) as Filesystem Directory Views within
       the portal_skins tool, so that they become usable as skin layers.
       -->
- <object name="plonetheme_classic_custom_images"
+ <object name="classic_images"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.classic:skins/plonetheme_classic_custom_images"/>
- <object name="plonetheme_classic_custom_templates"
+    directory="plonetheme.classic:skins/classic_images"/>
+ <object name="classic_templates"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.classic:skins/plonetheme_classic_custom_templates"/>
- <object name="plonetheme_classic_styles"
+    directory="plonetheme.classic:skins/classic_templates"/>
+ <object name="classic_styles"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.classic:skins/plonetheme_classic_styles"/>
+    directory="plonetheme.classic:skins/classic_styles"/>
 
  <!-- A skin-path in this file corresponds to a Skin Selection in the
      'Properties' tab of the portal_skins tool, in the ZMI.
@@ -38,13 +38,13 @@
        Note: insert-before (and -after) accepts the value "*" which means
        "all".
        -->
- <skin-path name="Plone Classic Theme" based-on="Plone Default">
-  <layer name="plonetheme_classic_custom_images"
+ <skin-path name="Plone Classic Theme">
+  <layer name="classic_images"
      insert-after="custom"/>
-  <layer name="plonetheme_classic_custom_templates"
-     insert-after="plonetheme_classic_custom_images"/>
-  <layer name="plonetheme_classic_styles"
-     insert-after="plonetheme_classic_custom_templates"/>
+  <layer name="classic_templates"
+     insert-after="classic_images"/>
+  <layer name="classic_styles"
+     insert-after="classic_templates"/>
  </skin-path>
 
 </object>
