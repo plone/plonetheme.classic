@@ -9,8 +9,7 @@
        persist indefinitely. In the ZMI, this value is known as 'Skin Cookie
        persistence'.
        -->
-<object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="Plone Classic Theme">
+<object name="portal_skins" allow_any="False" cookie_persistence="False">
 
  <!-- This list registers the folders that are stored in the skins directory
       of your product (on the filesystem) as Filesystem Directory Views within

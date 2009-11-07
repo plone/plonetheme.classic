@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<object name="portal_skins" default_skin="Plone Default">
-    <!-- Make Plone Default theme default theme. This is bad, because it 
-         is unstyled Plone, but there is no way how to check if thewe is  
-         another theme 
-    -->
+<object name="portal_skins">
 
  <object name="classic_styles" remove="True" />
  <skin-path name="Plone Classic Theme" remove="True" />
