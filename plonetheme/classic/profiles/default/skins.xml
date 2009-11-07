@@ -16,12 +16,12 @@
       of your product (on the filesystem) as Filesystem Directory Views within
       the portal_skins tool, so that they become usable as skin layers.
       -->
- <object name="classic_images"
+ <!-- <object name="classic_images"
     meta_type="Filesystem Directory View"
     directory="plonetheme.classic:skins/classic_images"/>
  <object name="classic_templates"
     meta_type="Filesystem Directory View"
-    directory="plonetheme.classic:skins/classic_templates"/>
+    directory="plonetheme.classic:skins/classic_templates"/> -->
  <object name="classic_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.classic:skins/classic_styles"/>
@@ -38,11 +38,11 @@
        Note: insert-before (and -after) accepts the value "*" which means
        "all".
        -->
- <skin-path name="Plone Classic Theme">
-  <layer name="classic_images"
+ <skin-path name="Plone Classic Theme" based-on="Plone Default">
+  <!-- <layer name="classic_images"
      insert-after="custom"/>
   <layer name="classic_templates"
-     insert-after="classic_images"/>
+     insert-after="classic_images"/> -->
   <layer name="classic_styles"
      insert-after="classic_templates"/>
  </skin-path>

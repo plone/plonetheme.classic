@@ -4,9 +4,9 @@
     i18n_domain="plonetheme.classic">
 
   <!-- File System Directory Views registration -->
-  <cmf:registerDirectory name="plonetheme_classic_custom_images"/>
-  <cmf:registerDirectory name="plonetheme_classic_custom_templates"/>
-  <cmf:registerDirectory name="plonetheme_classic_styles"/>
+  <!-- <cmf:registerDirectory name="classic_images"/>
+  <cmf:registerDirectory name="classic_templates"/> -->
+  <cmf:registerDirectory name="classic_styles"/>
 
   <!-- Note: This could also be done for all folders at once
        by replacing the previous lines with this one:
