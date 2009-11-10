@@ -7,8 +7,9 @@
 
   <include package=".browser" />
 
-  <five:registerPackage package="." />
   <cmf:registerDirectory name="classic_styles"/>
+
+  <five:registerPackage package="." />
 
   <genericsetup:registerProfile
       name="default"
