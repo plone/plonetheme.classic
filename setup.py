@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='plonetheme.classic',
       version=version,
-      description="An installable theme for Plone 3",
+      description="An installable theme for Plone 4",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -13,9 +13,9 @@ setup(name='plonetheme.classic',
         "Programming Language :: Python",
         ],
       keywords='web zope plone theme',
-      author="''",
-      author_email='product-developers@lists.plone.org',
-      url='http://svn.plone.org/svn/plone/plonetheme.classic',
+      author='Plone Foundation',
+      author_email='plone-developers@lists.sourceforge.net',
+      url='http://pypi.python.org/pypi/plonetheme.classic',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['plonetheme'],
@@ -28,5 +28,4 @@ setup(name='plonetheme.classic',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=[],
       )
