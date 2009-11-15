@@ -15,7 +15,7 @@
       name="default"
       title="Plone Classic Theme"
       directory="profiles/default"
-      description='Plone Classic Theme package'
+      description='The old theme used in Plone 3 and earlier.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
