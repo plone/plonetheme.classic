@@ -1,8 +1,11 @@
 Changelog
 =========
 
-1.0a2 - Unreleased
+1.0a2 - 2009-11-18
 ------------------
+
+- Fix packaging error
+  [esteele]
 
 
 1.0a1 - 2009-11-18
