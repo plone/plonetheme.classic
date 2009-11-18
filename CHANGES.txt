@@ -1,8 +1,15 @@
 Changelog
 =========
 
-1.0 - Unreleased
-----------------
+1.0a1 - 2009-11-18
+------------------
 
-* Initial release based on the default theme from Plone 3.
+- Prevent discussion form buttons from displaying in print view. Add byline
+  info for comments in print view.
+  http://dev.plone.org/plone/ticket/8460
+  [naro]
+  
+- Add CSS support for JQueryTools popup forms
+  [stevem]
 
+- Initial release
