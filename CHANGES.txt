@@ -4,6 +4,10 @@ Changelog
 1.0a3 - Unreleased
 ------------------
 
+- moved plone.css.py to CMFPlone - it doesn't belong to classic theme
+  http://dev.plone.org/plone/ticket/9366
+  [spliter]
+
 
 1.0a2 - 2009-11-18
 ------------------
