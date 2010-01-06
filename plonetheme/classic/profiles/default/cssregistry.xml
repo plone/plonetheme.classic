@@ -21,5 +21,6 @@
 
  <stylesheet id="RTL.css"
     expression="python:portal.restrictedTraverse('@@plone_portal_state').is_rtl()" />
+ <stylesheet id="IEFixes.css" conditionalcomment="lt IE 8" />
 
 </object>
