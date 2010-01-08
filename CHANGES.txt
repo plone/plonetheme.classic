@@ -4,6 +4,10 @@ Changelog
 1.0a3 - Unreleased
 ------------------
 
+- Activate this skin in the Plone site upon installation.
+  Fixes http://dev.plone.org/plone/ticket/10011.
+  [dukebody]
+
 - moved plone.css.py to CMFPlone - it doesn't belong to classic theme
   http://dev.plone.org/plone/ticket/9366
   [spliter]
