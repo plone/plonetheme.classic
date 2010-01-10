@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<object name="portal_skins" default_skin="Plone Classic Theme">
+<object name="portal_skins">
 
  <object name="classic_styles"
     meta_type="Filesystem Directory View"
