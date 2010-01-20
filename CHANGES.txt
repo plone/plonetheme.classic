@@ -4,6 +4,16 @@ Changelog
 1.0a3 - Unreleased
 ------------------
 
+- Register iefixes (css and js) in the proper resource registries,
+  using the conditionalcomments property.  
+  Refs http://dev.plone.org/plone/ticket/9278.  
+  [dukebody]
+
+- Move iefixes.js to this package, since we agreed
+  upon that every theme should be responsible of its own fixes for IE.
+  Refs http://dev.plone.org/plone/ticket/9278.
+  [dukebody]
+
 - Activate this skin in the Plone site upon installation.
   Fixes http://dev.plone.org/plone/ticket/10011.
   [dukebody]
