@@ -4,9 +4,13 @@
  <object name="classic_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.classic:skins/classic_styles"/>
+ <object name="classic_ecmascript"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.classic:skins/classic_ecmascript"/>
 
  <skin-path name="Plone Classic Theme" based-on="Plone Default">
   <layer name="classic_styles" />
+  <layer name="classic_ecmascript" />
  </skin-path>
 
 </object>
