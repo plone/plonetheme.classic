@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0b1'
+version = '1.0a4'
 
 setup(name='plonetheme.classic',
       version=version,
