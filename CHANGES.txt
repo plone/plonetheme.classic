@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0a3 - Unreleased
+1.0a3 - 2010-02-01
 ------------------
 
 - Register iefixes (css and js) in the proper resource registries,
