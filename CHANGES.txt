@@ -3,6 +3,8 @@ Changelog
 
 1.0b1 - Unreleased
 ------------------
+- Highlighted current item in actions menu with the font color and boldness.
+  [spliter]
 
 1.0a4 - 2010-02-01
 ------------------

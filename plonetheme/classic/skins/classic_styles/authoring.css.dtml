@@ -186,6 +186,10 @@
     padding-top: 0.2em;
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-contentViewBorderColor;;
 }
+.actionMenu .actionMenuContent .actionMenuSelected {
+    color: #000;
+    font-weight: bold;
+}
 #templateMenu li a {
     padding-left: 16px;
 }
