@@ -9,8 +9,8 @@
     directory="plonetheme.classic:skins/classic_ecmascript"/>
 
  <skin-path name="Plone Classic Theme" based-on="Plone Default">
-  <layer name="classic_styles" />
-  <layer name="classic_ecmascript" />
+  <layer name="classic_styles" insert-after="custom" />
+  <layer name="classic_ecmascript" insert-after="classic_styles" />
  </skin-path>
 
 </object>
