@@ -101,6 +101,8 @@ div.top,
  #content-history,
  .listingBar,
 .discussion input,
+.overlay,
+.close,
 .visualNoPrint {
     display: none;
 }
