@@ -4,6 +4,10 @@ Changelog
 1.0b1 - Unreleased
 ------------------
 
+- Updated the CSS to work using only #content, now that .documentContent and #region-content are removed.
+  This refs http://dev.plone.org/plone/ticket/10231
+  [limi]
+
 - Remove common CSS registries. Adjust skin layers order.
   Refs http://dev.plone.org/plone/ticket/9988.
   [dukebody]

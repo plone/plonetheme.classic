@@ -367,7 +367,7 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader {
 .configlet .documentEditable {
     padding: 0em !important;
 }
-.documentEditable .documentContent {
+.documentEditable #content {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-contentViewBorderColor;;
     padding: 0;
 }

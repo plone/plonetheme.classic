@@ -52,55 +52,55 @@ h3, h4, h5, h6 {
     margin-top: 0;
 }
 
-.documentContent {
+#content {
     font-size: 110%;
     padding: 1em 1em 2em 1em !important;
     background: &dtml-backgroundColor;;
 }
-.documentContent ul {
+#content ul {
     list-style-image: url(&dtml-portal_url;/bullet.png);
     list-style-type: square;
     margin: 0.5em 0 0 1.5em;
 }
-.documentContent ol {
+#content ol {
     margin: 0.5em 0 0 2.5em;
 }
 
 /* Links with differently colored link underlines - only for content */
-.documentContent p a {
+#content p a {
     text-decoration: none;
     border-bottom: 1px #ccc solid;
 }
-.documentContent p a:visited {
+#content p a:visited {
     color: &dtml-linkVisitedColor;;
     background-color: transparent;
 }
-.documentContent p a:active {
+#content p a:active {
     color: &dtml-linkActiveColor;;
     background-color: transparent;
 }
 #content a:target {
     background-color: #fd7 !important;
 }
-.documentContent li a {
+#content li a {
     text-decoration: none;
     border-bottom: 1px #cccccc solid;
 }
-.documentContent li a:visited {
+#content li a:visited {
     color: &dtml-linkVisitedColor;;
 }
-.documentContent li a:active {
+#content li a:active {
     color: &dtml-linkActiveColor;;
 }
-.documentContent dd a {
+#content dd a {
     text-decoration: none;
     border-bottom: 1px #cccccc solid;
 }
-.documentContent dd a:visited {
+#content dd a:visited {
     color: &dtml-linkVisitedColor;;
     background-color: transparent;
 }
-.documentContent dd a:active {
+#content dd a:active {
     color: &dtml-linkActiveColor;;
     background-color: transparent;
 }

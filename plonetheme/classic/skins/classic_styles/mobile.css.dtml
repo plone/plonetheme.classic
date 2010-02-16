@@ -272,7 +272,7 @@ label {
 ** end ECMAScript Content Action Menus
 */
 
-.documentEditable .documentContent {
+.documentEditable #content {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-contentViewBorderColor;;
     padding: 0.5em;
 }
