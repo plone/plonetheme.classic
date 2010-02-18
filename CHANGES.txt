@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0b1 - Unreleased
+1.0b1 - 2010-02-18
 ------------------
 
 - Updated the CSS to work using only #content, now that .documentContent and #region-content are removed.
