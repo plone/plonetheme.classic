@@ -4,6 +4,12 @@ Changelog
 1.0b2 - Unreleased
 ------------------
 
+- Hide the "up to groups overview" link and fieldset border in the "add group"
+  overlay.
+  Closes http://dev.plone.org/plone/ticket/10149
+  Closes http://dev.plone.org/plone/ticket/10150
+  [stuttle]
+
 1.0b1 - 2010-02-18
 ------------------
 
