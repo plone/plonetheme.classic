@@ -4,6 +4,9 @@ Changelog
 1.0b3 - unreleased
 ------------------
 
+- Fix the uninstall profile to be executed and switch to Sunburst.
+  Fixes http://dev.plone.org/plone/ticket/10346.
+  [dukebody]
 
 1.0b2 - 2010-03-05
 ------------------
