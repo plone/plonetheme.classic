@@ -3,6 +3,10 @@ Changelog
 
 1.0b3 - unreleased
 ------------------
+- Removed old mobile.css styling, since it doesn't really do anything useful,
+  and is actively harmful for certain devices. If you want to have mobile
+  styling, we recommend starting with Sunburst as a base instead.
+  [limi]
 
 - Adjusted viewlets so that plone.app.layout specifies the viewlet
   configuration used by Sunburst, and this package now overrides those
