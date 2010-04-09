@@ -1,8 +1,9 @@
 Changelog
 =========
 
-1.0b3 - unreleased
+1.0b3 - 2010-04-10
 ------------------
+
 - Removed old mobile.css styling, since it doesn't really do anything useful,
   and is actively harmful for certain devices. If you want to have mobile
   styling, we recommend starting with the Sunburst theme as a base instead.
@@ -29,7 +30,8 @@ Changelog
 1.0b1 - 2010-02-18
 ------------------
 
-- Updated the CSS to work using only #content, now that .documentContent and #region-content are removed.
+- Updated the CSS to work using only #content, now that .documentContent and
+  #region-content are removed.
   This refs http://dev.plone.org/plone/ticket/10231
   [limi]
 
@@ -67,13 +69,11 @@ Changelog
   http://dev.plone.org/plone/ticket/9366
   [spliter]
 
-
 1.0a2 - 2009-11-18
 ------------------
 
 - Fix packaging error
   [esteele]
-
 
 1.0a1 - 2009-11-18
 ------------------
