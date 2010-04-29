@@ -574,7 +574,8 @@ dl.error dd {
     background-color: #fd7; 
 }
 
-.documentDescription {
+.documentDescription,
+.description {
     /* The summary text describing the document */
     font-weight: bold;
     display: block;
@@ -768,17 +769,20 @@ table.plain th {
 .listingBar a {
     text-decoration: none;
 }
-.tileItem {
+.tileItem,
+.item {
     border-top: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
     padding-top: 0.5em;
     margin-top: 0.5em;
 }
-.tileHeadline {
+.tileHeadline,
+.headline {
     border: none;
     font-size: 110%;
     font-weight: bold;
 }
-.tileHeadline a {
+.tileHeadline a,
+.headline a {
     text-decoration: none;
 }
 .tileBody {
