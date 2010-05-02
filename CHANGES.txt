@@ -1,9 +1,11 @@
 Changelog
 =========
 
-1.0b4 - unreleased
+1.0b4 - 2010-05-01
 ------------------
 
+- Styling tweaks for full item view.
+  [elro]
 
 1.0b3 - 2010-04-10
 ------------------
