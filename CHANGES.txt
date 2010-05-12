@@ -4,6 +4,10 @@ Changelog
 1.0b5 - Unreleased
 ------------------
 
+- Set overflow-y:auto on ajax overlays to support forms longer than the
+  viewport.
+  [stevem]
+
 1.0b4 - 2010-05-01
 ------------------
 
