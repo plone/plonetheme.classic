@@ -4,6 +4,11 @@ Changelog
 1.0b5 - Unreleased
 ------------------
 
+- Add ILegacyThemeSpecific interface for use with the "Old Plone 3 Custom
+  Theme" skin which may be added during upgrade from Plone 3, to make sure
+  it gets the right viewlets.
+  [davisagli]
+
 - Set overflow-y:auto on ajax overlays to support forms longer than the
   viewport.
   [stevem]
