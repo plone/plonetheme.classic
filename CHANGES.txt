@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0b5 - Unreleased
+1.0b5 - 2010-06-13
 ------------------
 
 - Add ILegacyThemeSpecific interface for use with the "Old Plone 3 Custom
