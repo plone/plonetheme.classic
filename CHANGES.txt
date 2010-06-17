@@ -4,6 +4,9 @@ Changelog
 1.0b6 - unreleased
 ------------------
 
+- Add CSS for sprite versions of the core content type icons, based on the
+  Sunburst theme. Fixes http://dev.plone.org/plone/ticket/10485
+  [davisagli]
 
 1.0b5 - 2010-06-13
 ------------------
