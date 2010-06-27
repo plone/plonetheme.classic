@@ -1248,22 +1248,22 @@ div.overlay #createGroup fieldset { border: none; }
 	background: no-repeat transparent 0px 4px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-event {
-	background: no-repeat transparent 0px -62px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -212px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-folder {
-	background: no-repeat transparent 0px -194px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -644px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-link {
-	background: no-repeat transparent 0px -326px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -1076px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-news-item {
-	background: no-repeat transparent 0px -392px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -1292px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-plone-site {	
-	background: no-repeat transparent 0px -456px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -1508px url(contenttypes-sprite.png);
 }
 .icons-on .contenttype-topic {
-	background: no-repeat transparent 0px -524px url(contenttypes-sprite.png);
+	background: no-repeat transparent 0px -1724px url(contenttypes-sprite.png);
 }
 
 .icons-on .contenttype-document,
