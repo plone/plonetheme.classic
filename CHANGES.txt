@@ -4,6 +4,11 @@ Changelog
 1.0.1 - unreleased
 ------------------
 
+- Copy CSS from sunburst theme to make sure we still get icons for the file
+  and image types in the add menu. Fixes
+  http://dev.plone.org/plone/ticket/10713
+  [davisagli]
+
 - Update license to GPL version 2 only.
   [hannosch]
 
