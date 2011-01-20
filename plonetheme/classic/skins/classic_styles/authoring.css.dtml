@@ -230,7 +230,7 @@ ul.configletDetails li {
     display: inline;
 }
 ul.configletDetails li a {
-	text-decoration: none;
+    text-decoration: none;
 }
 ul.configletDetails li label {
     font-weight: bold;
@@ -282,7 +282,7 @@ ul.configletDetails li.configletDescription {
     margin-bottom: 1px;
     min-height: 1.6em;
     height: auto;
-    line-height: 1.6em;	
+    line-height: 1.6em; 
 }
 .commentBody {
     margin: 0 1em 1em 1em;
@@ -485,67 +485,208 @@ div.formControls input.hidden {
 /* @group content history */
 
 #content-history #history dd {
-	margin-top: 0.8em;
+    margin-top: 0.8em;
 }
 
 #content-history div.historyRecord {
-	font-size: 90%;
-	margin-bottom: 10px;
+    font-size: 90%;
+    margin-bottom: 10px;
 }
 
 
 #content-history div.historyTools ul {
-	float: right;
-	list-style-image: none;
-	list-style-position: outside;
-	list-style-type: none;
-	margin-top: 0;
+    float: right;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-top: 0;
 }
 
 #content-history div.historyTools ul li {
-	display: inline;
+    display: inline;
 }
 
 #content-history div.historyTools ul li a{
-	border-bottom: none;
+    border-bottom: none;
 }
 
 
 #content-history .historyAction {
-	color: &dtml-contentViewFontColor;;
+    color: &dtml-contentViewFontColor;;
 }
 
 #content-history .historyByLine {
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 #content-history div.historyComment {
-	background-color: &dtml-globalBackgroundColor;;
-	padding: 0.25em 1em;
+    background-color: &dtml-globalBackgroundColor;;
+    padding: 0.25em 1em;
 }
 
 #content-history div.historyComment p {
-	color: &dtml-fontColor;;
-	margin: 0;
-	padding-top: 1px;	
+    color: &dtml-fontColor;;
+    margin: 0;
+    padding-top: 1px;   
 }
 
 #content-history a.historyComparePrevious {
-	border-bottom: medium none;
-	border-top: 1px dotted &dtml-globalBorderColor;;
-	display: block;
-	margin-bottom: -15px;
-	margin-top: 11px;
+    border-bottom: medium none;
+    border-top: 1px dotted &dtml-globalBorderColor;;
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 11px;
 }
 
 #content-history dl div.historyRecord a.historyComparePrevious span {
-	background-color: white;
-	left: 50%;
-	position: relative;
-	top: -1em;
+    background-color: white;
+    left: 50%;
+    position: relative;
+    top: -1em;
 }
 
 /* @end */
 
+/* @group jQuery Tag multiple selector */
+
+a.multiSelect {
+    position: relative;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a.multiSelect:link, a.multiSelect:visited, a.multiSelect:hover, a.multiSelect:active {
+    color: black;
+    text-decoration: none;
+}
+
+a.multiSelect span
+{
+    overflow: hidden;
+    display: -moz-inline-stack;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: right;
+    color: #777777;
+}
+
+.multiSelectOptions {
+    margin-top: -1px;
+    overflow-y: auto;
+    border: solid 1px #999999;
+    background: #FFF;
+    height: 14em;
+    width: 100%;
+}
+
+.multiSelectOptions LABEL {
+    padding: 2px 0 0 0;
+    display: block;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.multiSelectOptions LABEL.optGroup
+{
+    font-weight: bold;
+}
+
+.multiSelectOptions .optGroupContainer LABEL
+{
+    padding-left: 10px;
+}
+
+.multiSelectOptions.optGroupHasCheckboxes .optGroupContainer LABEL
+{
+    padding-left: 18px;
+}
+
+.multiSelectOptions input{
+    vertical-align: middle;
+    margin: 1px 4px 4px 6px;
+}
+
+.multiSelectOptions LABEL.checked {
+    background-color: #EEE;
+}
+
+.multiSelectOptions LABEL.selectAll {
+    border-bottom: dotted 1px #CCC;
+}
+
+.multiSelectOptions LABEL.hover {
+    background-color: #777;
+    color: white;
+}
+
+.formHelp {
+    font-weight: normal !important;
+}
+
+#existingTagsSection {
+    position: relative;
+    margin-left: 3em;
+}
+
+#existingTags {
+    float: left;
+    width: 50%;
+}
+
+#content dd {
+    margin-bottom: 1px;
+    margin-left: 0;
+}
+
+#selectedTagsSection {
+    margin-left: 3em;
+    float: left;
+    width: 43%;
+    margin-bottom: 0em !important;
+}
+
+#selectedTags {
+    margin-bottom: 1em;
+}
+
+#newTagsSection {
+    width: 49%;
+    margin-left: 3em;
+}
+
+span.selectedTag {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    -moz-background-size:auto auto;
+    -moz-border-radius:0.5em;
+    border-radius:0.5em;
+    background-attachment:scroll;
+    background-color:#DDDDDD;
+    background-image:none;
+    background-position:0 0;
+    background-repeat:repeat;
+    color:black;
+    padding-bottom:0.25em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0.25em;
+}
+
+p.selectedTag {
+    margin-bottom: .4em !important;
+}
+
+#existingTagsTitle, #newTagsTitle {
+    float: left;
+}
+
+#existingTagsHelp, #newTagsHelp {
+    float: right;
+}
+/* @end */
 
 
 /* </dtml-with> */
