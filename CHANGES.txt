@@ -1,8 +1,9 @@
 Changelog
 =========
 
-1.0.2 - unreleased
-------------------
+1.1 - 2011-02-04
+----------------
+
 - Add styling changes from PLIP 11017: Tags MultiSelectionWidget w/scrollbar &
   checkboxes. 
   [esteele]
