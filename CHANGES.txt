@@ -1,15 +1,21 @@
 Changelog
 =========
 
+
 1.1.1 - Unreleased
 ------------------
+
+- Add MANIFEST.in.
+  [WouterVH]
+
 
 1.1 - 2011-02-04
 ----------------
 
 - Add styling changes from PLIP 11017: Tags MultiSelectionWidget w/scrollbar &
-  checkboxes. 
+  checkboxes.
   [esteele]
+
 
 1.0.1 - 2010-07-18
 ------------------
@@ -26,12 +32,14 @@ Changelog
 - Update license to GPL version 2 only.
   [hannosch]
 
+
 1.0 - 2010-07-07
 ----------------
 
 - Add CSS for sprite versions of the core content type icons, based on the
   Sunburst theme. Fixes http://dev.plone.org/plone/ticket/10485
   [davisagli]
+
 
 1.0b5 - 2010-06-13
 ------------------
@@ -41,15 +49,16 @@ Changelog
   it gets the right viewlets.
   [davisagli]
 
-- Set overflow-y:auto on ajax overlays to support forms longer than the
-  viewport.
+- Set overflow-y:auto on ajax overlays to support forms longer than the viewport.
   [stevem]
+
 
 1.0b4 - 2010-05-01
 ------------------
 
 - Styling tweaks for full item view.
   [elro]
+
 
 1.0b3 - 2010-04-10
 ------------------
@@ -68,6 +77,7 @@ Changelog
   Fixes http://dev.plone.org/plone/ticket/10346.
   [dukebody]
 
+
 1.0b2 - 2010-03-05
 ------------------
 
@@ -76,6 +86,7 @@ Changelog
   Closes http://dev.plone.org/plone/ticket/10149
   Closes http://dev.plone.org/plone/ticket/10150
   [stuttle]
+
 
 1.0b1 - 2010-02-18
 ------------------
@@ -92,11 +103,13 @@ Changelog
 - Highlighted current item in actions menu with the font color and boldness.
   [spliter]
 
+
 1.0a4 - 2010-02-01
 ------------------
 
 - Fix packaging issues.
   [esteele]
+
 
 1.0a3 - 2010-02-01
 ------------------
@@ -115,15 +128,17 @@ Changelog
   Fixes http://dev.plone.org/plone/ticket/10011.
   [dukebody]
 
-- moved plone.css.py to CMFPlone - it doesn't belong to classic theme
+- Moved plone.css.py to CMFPlone - it doesn't belong to classic theme.
   http://dev.plone.org/plone/ticket/9366
   [spliter]
+
 
 1.0a2 - 2009-11-18
 ------------------
 
 - Fix packaging error
   [esteele]
+
 
 1.0a1 - 2009-11-18
 ------------------
@@ -132,7 +147,7 @@ Changelog
   info for comments in print view.
   http://dev.plone.org/plone/ticket/8460
   [naro]
-  
+
 - Add CSS support for JQueryTools popup forms
   [stevem]
 
