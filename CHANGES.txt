@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.2 - Unreleased
+----------------
+
+- Merge changes from PLIP 9382.
+  [esteele, spliter]
 
 1.1.1 - Unreleased
 ------------------
