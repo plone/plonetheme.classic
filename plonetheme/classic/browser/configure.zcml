@@ -25,13 +25,16 @@
       />
   
   <!-- move language selector to the portaltop manager -->
-  <browser:viewlet
-      name="plone.app.i18n.locales.languageselector"
-      layer=".interfaces.IThemeSpecific"
-      manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-      class="plone.app.i18n.locales.browser.selector.LanguageSelector"
-      permission="zope2.View"
-      />
+  <configure package="plone.app.i18n">
+      <browser:viewlet
+          name="plone.app.i18n.locales.languageselector"
+          layer="plonetheme.classic.browser.interfaces.IThemeSpecific"
+          manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+          class="plone.app.i18n.locales.browser.selector.LanguageSelector"
+          template="locales/browser/languageselector.pt"
+          permission="zope2.View"
+          />
+  </configure>
   
   <!-- move personal bar to portaltop manager, and replace template -->
   <browser:viewlet
