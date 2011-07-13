@@ -1,9 +1,13 @@
 Changelog
 =========
 
-
 1.1.1 - Unreleased
 ------------------
+
+- Backport http://dev.plone.org/plone/changeset/51221. Pull in plone.app.i18n
+  configuration so that the languageselector template is preserved. Closes
+  http://dev.plone.org/plone/ticket/12007
+  [esteele]
 
 - Add MANIFEST.in.
   [WouterVH]
