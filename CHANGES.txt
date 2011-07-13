@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.1 - Unreleased
+1.1.1 - 2011-02-13
 ------------------
 
 - Backport http://dev.plone.org/plone/changeset/51221. Pull in plone.app.i18n
