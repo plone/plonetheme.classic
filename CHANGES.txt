@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.0.2 - 2011-07-19
+------------------
+
+- Backport http://dev.plone.org/plone/changeset/51221. Pull in plone.app.i18n
+  configuration so that the languageselector template is preserved. References
+  http://dev.plone.org/plone/ticket/12007
+  [esteele]
+
 1.0.1 - 2010-07-18
 ------------------
 
