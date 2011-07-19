@@ -1,23 +1,24 @@
 Changelog
 =========
 
-1.2 - Unreleased
+1.2 - 2011-07-19
 ----------------
 
 - Pull in plone.app.i18n configuration so that the languageselector template is         
   preserved. Refs http://dev.plone.org/plone/ticket/12007
   [esteele]
 
+- Deprecated iefixes.js after we have introduced Modernizr and removed the
+  script's GS registration.
+  References http://dev.plone.org/plone/ticket/11300
+  [spliter]
+
 - Merge changes from PLIP 9352.
   [esteele, spliter]
 
+
 1.1.1 - Unreleased
 ------------------
-
-- Deprecated iefixes.js after we have introduced Modernizr and removed the
-  script's GS registration.
-  References https://dev.plone.org/plone/ticket/11300
-  [spliter]
 
 - Add MANIFEST.in.
   [WouterVH]
