@@ -14,7 +14,7 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="Old Plone 3 Custom Theme"
       />
-  
+
   <!-- move site actions to portalheader manager -->
   <browser:viewlet
       name="plone.site_actions"
@@ -23,7 +23,7 @@
       class="plone.app.layout.viewlets.common.SiteActionsViewlet"
       permission="zope2.View"
       />
-  
+
   <!-- move language selector to the portaltop manager -->
   <configure package="plone.app.i18n">
       <browser:viewlet
@@ -35,7 +35,7 @@
           permission="zope2.View"
           />
   </configure>
-  
+
   <!-- move personal bar to portaltop manager, and replace template -->
   <browser:viewlet
       name="plone.personal_bar"
@@ -45,7 +45,7 @@
       template="personal_bar.pt"
       permission="zope2.View"
       />
-  
+
   <!-- move path bar to portaltop manager -->
   <browser:viewlet
       name="plone.path_bar"
