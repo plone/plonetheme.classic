@@ -489,6 +489,7 @@ div.formControls input.hidden {
 
 div.historyRecord {
     margin-bottom: 1em;
+    border: 1px solid &dtml-globalBorderColor;;
 }
 
 
@@ -515,7 +516,7 @@ div.historyTools form {
 }
 
 .historyByLine {
-    background: #ddd;
+    background: &dtml-globalBackgroundColor;;
     padding: 0.5em;
 }
 
@@ -528,7 +529,6 @@ div.historyLinks {
 
 div.historyComment {
     padding: 0.5em 1em;
-    border: 1px solid #ddd;
 }
 
 div.historyComment p {
