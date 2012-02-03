@@ -517,12 +517,6 @@ div.historyTools form {
 .historyByLine {
     background: #ddd;
     padding: 0.5em;
-    border-top-right-radius: 0.5em;
-    border-top-left-radius: 0.5em;
-    -webkit-border-top-right-radius: 0.5em;
-    -webkit-border-top-left-radius: 0.5em;
-    -moz-border-radius-topleft: 0.5em;
-    -moz-border-radius-topright: 0.5em;
 }
 
 div.historyLinks {
