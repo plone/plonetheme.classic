@@ -4,7 +4,9 @@ Changelog
 1.2.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Set "display: block" on .formHelp in forms.css.dtml to assure that field
+  help displays as a block even if it is formatted as a span for accessibility.
+  [smcmahon]
 
 
 1.2.1 (2012-02-07)
