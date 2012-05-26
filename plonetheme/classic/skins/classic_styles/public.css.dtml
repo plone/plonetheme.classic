@@ -492,7 +492,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
     text-decoration: none;
 }
 .breadcrumbSeparator {
-    font-size: 120%;
+    color: #666666;
 }
 .documentEditable {
     padding: 0em 1em 1em 1em !important;
@@ -852,6 +852,49 @@ table.plain th {
     clear: right;
     margin: 0 0 0.5em 1em;
 }
+
+/* For event view template, changed headerless table to headings and divs,
+ * for better accessibility.  */
+
+#content .eventDetails {
+    border-collapse: collapse;
+    border-spacing: 0;    
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    font-size: &dtml-fontSmallSize;;
+    width: 22em;
+    margin: 1em 0em 1em 0em;
+}
+#content .eventDetails h2 {
+    background: &dtml-globalBackgroundColor;;
+    border-bottom: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+    font-weight: normal;
+    padding: 0.25em 0.5em;
+    text-transform: &dtml-textTransform;;
+    margin-top: 0em;
+}
+#content .eventDetails .eventDetail {
+    clear: both;
+}
+#content .eventDetails .eventDetail h3,
+#content .eventDetails .eventDetail div {
+    padding: 2%;
+}
+#content .eventDetails .eventDetail h3 {
+    float: left;
+    font-size: 100%;
+    text-align: right ! important;
+    padding: 0em 0em 1em 0em;
+    width: 37%;
+    margin: 0 0 0.5em 0;
+}
+#content .eventDetails .eventDetail div {
+    float: left;
+    width: 55%;
+    padding: 0em 0.5em 0.25em 0.5em;
+} 
+/* @end */
+
+
 
 /* Useful deviations from regular style on elements */
 
