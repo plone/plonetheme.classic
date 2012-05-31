@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2.2 (unreleased)
+1.2.2 (2012-05-30)
 ------------------
 - added styling on the eventlisting, that was changed from a table into headings/paragraphs 
   for accessibility reasons. Styling uses the classic dtml style to minimize visual changes.
