@@ -4,7 +4,9 @@ Changelog
 1.2.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Use the new user.png instead of user.gif. 
+  Closes http://dev.plone.org/ticket/13034
+  [esteele]
 
 
 1.2.2 (2012-05-30)
