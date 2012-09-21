@@ -90,6 +90,9 @@ legend {
 label {
     font-weight: bold;
 }
+label .fieldErrorBox {
+    font-weight: normal;
+}
 optgroup {
   font-style: normal;
   font-weight: bold;
