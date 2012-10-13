@@ -4,6 +4,9 @@ Changelog
 1.2.4 (unreleased)
 ------------------
 
+- Add selector for AT required field icon, as done in Sunburst 1.2.4.
+  [danjacka]
+
 - Remove comments referencing an old plone_tableless skin layer.
   [danjacka]
 
