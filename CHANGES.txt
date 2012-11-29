@@ -4,7 +4,14 @@ Changelog
 1.2.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add skin folders for images and templates.
+  [TH-code]
+
+- Add main_template with table layout from CMFPlone.
+  [TH-code]
+
+- Add logo.jpg from CMFPlone
+  [TH-code]
 
 
 1.2.4 (2012-10-15)
