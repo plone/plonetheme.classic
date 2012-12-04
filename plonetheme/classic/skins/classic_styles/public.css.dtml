@@ -212,11 +212,11 @@ fieldset#search-field {
     text-align: center;
 }
 input.searchPage {
-    font-size:200% !important;
+    font-size: 200% !important;
 }
 #rss-subscription {
-	float: left;
-	line-height: 1.92em;
+    float: left;
+    line-height: 1.92em;
 }
 #search-filter fieldset {
     border: none !important;
@@ -239,9 +239,9 @@ input.searchPage {
 form.searchPage h1.documentFirstHeading {
     font-weight:normal; 
     letter-spacing:0;
-	float: left;
-	margin-right: 0.8em;
-	border-bottom: none;
+    float: left;
+    margin-right: 0.8em;
+    border-bottom: none;
 }
 form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
     background: transparent !important;
@@ -250,7 +250,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
     float: left;
 }
 #searchResultsSort{ 
-	float:right
+   float:right
 }
 #search-results-bar {
     position: relative;
@@ -270,7 +270,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
     text-decoration: none;
 }
 #search-results-bar dt.actionMenuHeader a::after {
-	content: " ▼";
+    content: " ▼";
 }
 #content #search-results dd {
     margin-bottom: 1em;
