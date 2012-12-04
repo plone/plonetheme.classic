@@ -214,6 +214,9 @@ fieldset#search-field {
 input.searchPage {
     font-size: 200% !important;
 }
+form.searchPage input.searchButton {
+    background-position:5px 50%;
+}
 #rss-subscription {
     float: left;
     line-height: 1.92em;
