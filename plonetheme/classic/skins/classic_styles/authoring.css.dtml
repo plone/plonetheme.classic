@@ -376,6 +376,9 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader {
     display: inline;
     padding-right: 0.5em;
 }
+.label .fieldErrorBox {
+    font-weight: normal;
+}
 .optionsToggle {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
     color: &dtml-fontColor;;
