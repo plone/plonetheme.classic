@@ -8,6 +8,8 @@ Changelog
   Search button.
   [danjacka]
 
+- Fix sitemap display by making styles more specific than #content ul.
+  [danjacka]
 
 1.2.4 (2012-10-15)
 ------------------
