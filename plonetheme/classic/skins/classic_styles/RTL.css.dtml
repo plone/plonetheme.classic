@@ -294,8 +294,9 @@ dl.portalMessage dt {
 }
 
 /* set sitemap borders and margins for right alignment  - smoothify */
-#portal-sitemap .navTreeLevel1,
-#portal-sitemap .navTreeLevel2 {
+ul#portal-sitemap .navTreeLevel0 { margin: 0; }
+ul#portal-sitemap .navTreeLevel1,
+ul#portal-sitemap .navTreeLevel2 {
     padding-left: 0;
     padding-right: 1em;
     border-left: none;
@@ -304,10 +305,13 @@ dl.portalMessage dt {
 }
 
 /* set sitemap borders and margins for right alignment  - smoothify */
-#portal-sitemap .navTreeLevel2 {
+ul#portal-sitemap .navTreeLevel2 {
     border-right: 0.5em solid &dtml-globalBackgroundColor;;
     margin: 0 0.6em 0 0;
 }
+ul#portal-sitemap .navTreeLevel3 { margin-left: 0em; margin-right: 0.75em; }
+ul#portal-sitemap .navTreeLevel4 { margin-left: 0em; margin-right: 0.75em; }
+ul#portal-sitemap .navTreeLevel5 { margin-left: 0em; margin-right: 0.75em; }
 
 /* Hacks to set fix overlapping icons in folder listing - smoothify */
 dt span.documentByLine {

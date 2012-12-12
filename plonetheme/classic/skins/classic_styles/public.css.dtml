@@ -986,29 +986,41 @@ textarea.proportional {
 }
 
 /* Sitemap styles */
-#portal-sitemap {
+ul#portal-sitemap {
     list-style: none;
     list-style-image: none;
     margin: 0;
     font-size: 90%;
     border: none;
 }
-#portal-sitemap a {
+ul#portal-sitemap a {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-backgroundColor;;
 }
-#portal-sitemap a:hover {
+ul#portal-sitemap a:hover {
     border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
 }
-#portal-sitemap .navTreeLevel1 {
+ul#portal-sitemap .navTree {
+    list-style: none;
+    list-style-image: none;
+    margin-top: 1px;
+}
+ul#portal-sitemap .navTree li {
+    margin-bottom: 1px;
+}
+ul#portal-sitemap .navTreeLevel0 { margin: 0; }
+ul#portal-sitemap .navTreeLevel1 {
     padding-left: 1em;
     border-left: 0.5em solid &dtml-globalBorderColor;;
     margin: 0 0 0 0.5em;
 }
-#portal-sitemap .navTreeLevel2 {
+ul#portal-sitemap .navTreeLevel2 {
     padding-left: 1em;
     border-left: 0.5em solid &dtml-globalBackgroundColor;;
     margin: 0 0 0 0.6em;
 }
+ul#portal-sitemap .navTreeLevel3 { margin-left: 0.75em; }
+ul#portal-sitemap .navTreeLevel4 { margin-left: 0.75em; }
+ul#portal-sitemap .navTreeLevel5 { margin-left: 0.75em; }
 
 /* Album view classes */
 .photoAlbumEntry {
