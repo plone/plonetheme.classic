@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.2.5 (unreleased)
-------------------
+1.3 (2013-01-01)
+----------------
 
 - Reinstate positioning for magnifying glass image on search results
   Search button.
