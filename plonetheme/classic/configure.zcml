@@ -7,6 +7,7 @@
 
   <include package=".browser" />
 
+  <cmf:registerDirectory name="classic_templates"/>
   <cmf:registerDirectory name="classic_styles"/>
   <cmf:registerDirectory name="classic_ecmascript"/>
 
