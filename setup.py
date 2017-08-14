@@ -5,16 +5,19 @@ version = '1.4.dev0'
 setup(name='plonetheme.classic',
       version=version,
       description="The classic Plone 3 default theme.",
-      long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.txt").read(),
+      long_description=(open("README.txt").read() + "\n" +
+                        open("CHANGES.txt").read()),
       classifiers=[
           "Environment :: Web Environment",
           "Framework :: Plone",
+          "Framework :: Plone :: 4.3",
           "Framework :: Zope2",
           "License :: OSI Approved :: GNU General Public License (GPL)",
           "Operating System :: OS Independent",
           "Programming Language :: Python",
-        ],
+          "Programming Language :: Python :: 2.6",
+          "Programming Language :: Python :: 2.7",
+      ],
       keywords='web zope plone theme',
       author='Plone Foundation',
       author_email='plone-developers@lists.sourceforge.net',
