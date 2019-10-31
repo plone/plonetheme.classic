@@ -14,7 +14,9 @@ New features:
 
 Bug fixes:
 
-- *add item here*
+- Removed broken ``X-XSS-Protection`` header.
+  Fixes `issue 2964 <https://github.com/plone/Products.CMFPlone/issues/2964>`_.
+  [maurits]
 
 
 1.5.0 (2018-09-27)
