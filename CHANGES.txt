@@ -4,14 +4,6 @@ Changelog
 1.5.1 (unreleased)
 ------------------
 
-Breaking changes:
-
-- *add item here*
-
-New features:
-
-- *add item here*
-
 Bug fixes:
 
 - Removed broken ``X-XSS-Protection`` header.
